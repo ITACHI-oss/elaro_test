@@ -21,7 +21,6 @@ void main() {
                   categoryId: 3,
                   priceMin: 10000000,
                   priceMax: 20000000,
-                  color: '#050505',
                 ),
               ),
         ),

@@ -6,12 +6,6 @@ class LoadProducts extends ProductsEvent {
   final int categoryId;
   final int? priceMin;
   final int? priceMax;
-  final String? color;
 
-  LoadProducts({
-    required this.categoryId,
-    this.priceMin,
-    this.priceMax,
-    this.color,
-  });
+  LoadProducts({required this.categoryId, this.priceMin, this.priceMax});
 }
